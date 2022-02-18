@@ -16,6 +16,8 @@
 		30FBD3D927BEDDE100FA8C43 /* SRP-After.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FBD3D827BEDDE100FA8C43 /* SRP-After.swift */; };
 		30FBD3DC27BEE16A00FA8C43 /* OCP-Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FBD3DB27BEE16A00FA8C43 /* OCP-Before.swift */; };
 		30FBD3DE27BEE17700FA8C43 /* OCP-After.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FBD3DD27BEE17700FA8C43 /* OCP-After.swift */; };
+		30FBD3E127C00D5D00FA8C43 /* LSP_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FBD3E027C00D5D00FA8C43 /* LSP_Before.swift */; };
+		30FBD3E327C00D7100FA8C43 /* LSP_After.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FBD3E227C00D7100FA8C43 /* LSP_After.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		30FBD3D827BEDDE100FA8C43 /* SRP-After.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SRP-After.swift"; sourceTree = "<group>"; };
 		30FBD3DB27BEE16A00FA8C43 /* OCP-Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OCP-Before.swift"; sourceTree = "<group>"; };
 		30FBD3DD27BEE17700FA8C43 /* OCP-After.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OCP-After.swift"; sourceTree = "<group>"; };
+		30FBD3E027C00D5D00FA8C43 /* LSP_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSP_Before.swift; sourceTree = "<group>"; };
+		30FBD3E227C00D7100FA8C43 /* LSP_After.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSP_After.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 			children = (
 				30FBD3D727BEDDC800FA8C43 /* SRP */,
 				30FBD3DA27BEE13000FA8C43 /* OCP */,
+				30FBD3DF27C00CEF00FA8C43 /* LSP */,
 			);
 			path = Single;
 			sourceTree = "<group>";
@@ -120,6 +125,15 @@
 				30FBD3DD27BEE17700FA8C43 /* OCP-After.swift */,
 			);
 			path = OCP;
+			sourceTree = "<group>";
+		};
+		30FBD3DF27C00CEF00FA8C43 /* LSP */ = {
+			isa = PBXGroup;
+			children = (
+				30FBD3E027C00D5D00FA8C43 /* LSP_Before.swift */,
+				30FBD3E227C00D7100FA8C43 /* LSP_After.swift */,
+			);
+			path = LSP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,8 +208,10 @@
 			files = (
 				30FBD3C527BEDBB100FA8C43 /* ContentView.swift in Sources */,
 				30FBD3DC27BEE16A00FA8C43 /* OCP-Before.swift in Sources */,
+				30FBD3E327C00D7100FA8C43 /* LSP_After.swift in Sources */,
 				30FBD3D627BEDCB300FA8C43 /* SRP-Before.swift in Sources */,
 				30FBD3D227BEDBC700FA8C43 /* SlideInView.swift in Sources */,
+				30FBD3E127C00D5D00FA8C43 /* LSP_Before.swift in Sources */,
 				30FBD3D927BEDDE100FA8C43 /* SRP-After.swift in Sources */,
 				30FBD3C327BEDBB100FA8C43 /* SolidPrinciplesApp.swift in Sources */,
 				30FBD3DE27BEE17700FA8C43 /* OCP-After.swift in Sources */,
