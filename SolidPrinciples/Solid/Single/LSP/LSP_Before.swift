@@ -27,11 +27,9 @@ fileprivate class Rectangle {
 fileprivate class Square: Rectangle {
     override func set(width: Float) {
         self.width = width
-        self.height = height
     }
     
     override func set(height: Float) {
-        self.width = width
         self.height = height
     }
 }
