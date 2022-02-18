@@ -12,7 +12,7 @@ fileprivate protocol Polygon {
 }
 
 fileprivate class Rectangle: Polygon {
-    var width: Float 0
+    var width: Float = 0
     var height: Float = 0
     
     func set(width: Float) {
