@@ -1,5 +1,5 @@
 //
-//  ISP_Before.swift
+//  ISP_After.swift
 //  SolidPrinciples
 //
 //  Created by Ali Aghamirbabaei on 2/18/22.
@@ -7,12 +7,15 @@
 
 import Foundation
 
-fileprivate protocol Worker {
+fileprivate protocol Workable {
     func work()
+}
+
+fileprivate protocol Feedable {
     func eat()
 }
 
-fileprivate class Human: Worker {
+fileprivate class Human: Workable, Feedable {
     func work() {
         print("working...")
     }
@@ -22,13 +25,9 @@ fileprivate class Human: Worker {
     }
 }
 
-fileprivate class Robot: Worker {
+fileprivate class Robot: Workable {
     func work() {
         print("working...")
-    }
-    
-    func eat() {
-        fatalError("Robot dose not eat!")
     }
 }
 
@@ -39,5 +38,4 @@ fileprivate func example() {
     
     let robot = Robot()
     robot.work() // prints "working..."
-    robot.eat() // fatalError!
 }
