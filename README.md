@@ -10,3 +10,6 @@ LSP = [**L**iskov substitution principle](https://en.wikipedia.org/wiki/Liskov_s
 ISP = [**I**nterface segregation principle](https://en.wikipedia.org/wiki/Interface_segregation_principle "Interface segregation principle")
 
 DIP = [**D**ependency inversion principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+
+# Video
+For more information, I explained in this [video](https://youtu.be/fVetUtS3TPU) (In persian)
